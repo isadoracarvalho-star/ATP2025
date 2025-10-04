@@ -4,16 +4,12 @@
 ## Lista de resultados: links para os ficheiros da resolução
 
 total = 21
-
-
 print("""Bem-vindo ao jogo dos 21 fósforos! Seu Objetivo é escolher um número inteiro entre 1 a 4, 
       esse número será a quantidade de fósforos que vais tirar dos 21 existentes. Quem ficar com o 
       último fósforo perde """)
 resposta = input("Vamos lá?(s/n)")
-
 if resposta == "s":
     resposta = input("Queres começar?(s/n)")
-     
     if resposta == "s":
         while total > 1:
             jogada = int(input("Quantos fósforos queres tirar? 1, 2 ,3 ou 4?"))
@@ -39,34 +35,26 @@ if resposta == "s":
     else: 
          print("Okay, eu começo!")
          print(21-1)
-        
          jogada = int(input("Quantos fósforos queres tirar? 1, 2 ,3 ou 4?"))
          print( 20 - jogada)
          computador = 1
          total = 20 - jogada
-         
          while total >= 0:
             if jogada != 1 or jogada != 2 or jogada != 3 or jogada != 4:
                 total = -1
                 print("Selecione um número válido de jogadas")
-            
             elif total == 1:
                total = -1
                print("Você ganhou!")
-                 
             elif total == 0:
                 total = -1
                 print("Você perdeu!")
-                 
-            
             elif computador + jogada == 5:
                 import random
                 computador = random.randint(1,4)
                 if total - computador < 0: 
                    total = -1
                    print("você ganhou!")
-                    
-
                 print(total - computador)
                 total = total - computador
                 jogada = int(input("Quantos fósforos queres tirar? 1, 2 ,3 ou 4?"))
@@ -82,11 +70,9 @@ if resposta == "s":
                     if total == 0:
                         total = -1
                         print("Você perdeu!")
-                        
                     if total == 1:
                         total = -1
                         print("Você ganhou!")
-                         
                 elif jogada == 2:
                     print(total - 3 )
                     total = total - 3
@@ -96,11 +82,9 @@ if resposta == "s":
                     if total == 0:
                         total = -1
                         print("Você perdeu!")
-                            
                     if total == 1:
                         total = -1
                         print("Você ganhou!")
-                            
                 elif jogada == 3:
                     print(total - 2)
                     total = total - 2
@@ -110,11 +94,9 @@ if resposta == "s":
                     if total == 0:
                         total = -1
                         print("Você perdeu!")
-                        
                     if total == 1:
                         total = -1
                         print("Você ganhou!")
-                        
                 else:
                     print(total - 1)
                     total = total - 1
@@ -124,10 +106,8 @@ if resposta == "s":
                     if total == 0:
                         total = -1
                         print("Você perdeu!")
-                        
                     if total == 1:
                         total = -1
                         print("Você ganhou!")
-                        
 else:
     print("Tudo bem, até logo!")
