@@ -3,7 +3,7 @@
 ## Resumo: 
 ## Lista de resultados: links para os ficheiros da resolução
 
-""" python 
+```python
 #colocar no monitor o menu
 
 def menu():
@@ -123,9 +123,10 @@ def posiçãolista():
         if elem == res:
          return elem
         else:
-            return "-1" """
+            return "-1"
+```
 
- """ python
+```python
 
  import ManipulaçãoDeApp as m
 
@@ -169,5 +170,5 @@ if resposta == "S":
             resposta = 0
 
 else:
-    print("Tchau! Até logo.") """
+    print("Tchau! Até logo.") ```
         
