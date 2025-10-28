@@ -3,8 +3,7 @@
 ## Resumo: lista de parágrafos
 ## Lista de resultados: links para os ficheiros da resolução
 
-'''python 
-
+```python
 sala1 = ( 120,[],"Lavagante" )
 sala2 = (90,[],"Uma Grande, Corajosa e Bela Viagem" )
 sala3 = (150,[],"The Conjuring 4: Extrema-Unção" )
@@ -81,10 +80,10 @@ def pipoca():
             print("Você pediu uma pipoca média.")
         elif tamanho == 'grande':
             print("Você pediu uma pipoca grande.")
-  '''
+```
 
 
-  ´´´ python 
+```python 
   import CinemaApp as c
 
 resposta = input("Você deseja aceder a aplicação para cinemas?(sim/não)").lower()
@@ -129,4 +128,4 @@ if resposta == "sim":
 else:
     print("Tchau! Até logo.")
 
-'''
+```
