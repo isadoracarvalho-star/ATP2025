@@ -3,7 +3,7 @@
 ## Resumo: lista de parágrafos
 ## Lista de resultados: links para os ficheiros da resolução
 
-´´´ python 
+``` python 
 # criar uma turma em modo lista que contenha os alunos em tuplo com seu nome, o id estudante e uma lista de 3 notas
 def criar_turma():
     turma = []
@@ -55,9 +55,9 @@ def carregar_turma():
     f = open("./ficheiros/turmaATP.csv", "r")
     print(f.read())
     f.close()
-  ´´´
+```
 
-  ´´´ python 
+``` python 
   import GestãoAlunosApp as g
 
 resposta = input("Você deseja aceder a aplicação para gestão de alunos?(sim/não)").lower()
@@ -92,4 +92,4 @@ if resposta == "sim":
 else:
     print("Tchau! Até logo.")
 
-´´´
+```
