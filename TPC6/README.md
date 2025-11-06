@@ -104,3 +104,76 @@ plt.show()
 
 ```
 
+```
+import MeterologiaApp as m
+
+print("Você deseja aceder a aplicação de meterologia?(S/N)")
+resposta = input("S/N")
+if resposta == "S":
+    tabMeteo1 = [((2022,1,20), 2, 16, 0),((2022,1,21), 1, 13, 0.2), ((2022,1,22), 7, 17, 0.01)]
+    while resposta != 0:
+        print(""" Selecione uma opção:
+         * (1) Temperatura média
+         * (2) Guardar tabela meterológica
+         * (3) Carregar tabela meterológica
+         * (4) Temperatura mínima
+         * (5) Amplitude máxima
+         * (6) Dia com maior precipitação
+         * (7) Dias chuvosos em relção a precipitação desejada
+         * (8) Maior número de dias consecutivos com precipitação abaixo da precipitação desejada
+         * (9) Gráfico da temperatura mínima, máxima e de pluviosidade.
+         * (0) Sair""")
+        resposta =input("Introduza o número da opção:")
+        if resposta == "1":
+            print(m.medias(tabMeteo)) 
+        elif resposta == "2":
+            print(m.guardaTabMeteo(t, fnome))
+        elif resposta == "3":
+            print(m.carregaTabMeteo(fnome))
+        elif resposta == "4":
+            print(m.minMin(tabMeteo))
+        elif resposta == "5":
+            print(m.amplTerm(tabMeteo))
+        elif resposta == "6":
+            print(m.maxChuva(tabMeteo))
+        elif resposta == "7":
+            p = input("Precipitação desejada para a análise:")
+            print(m.diasChuvosos(tabMeteo, p))
+        elif resposta == "8":
+            p = input("Precipitação desejada para a análise:")
+            print(m.maxPeriodoCalor(tabMeteo, p))
+        elif resposta == "9":
+            import matplotlib.pyplot as plt
+
+            # line 1 points
+            x1 = [1,2,3]
+            y1 = [2,4,1]
+            # plotting the line 1 points
+            plt.plot(x1, y1, label = "linha 1")
+ 
+            # line 2 points
+            x2 = [1,2,3]
+            y2 = [4,1,3]
+            # plotting the line 2 points
+            plt.plot(x2, y2, label = "linha 2")
+ 
+            # naming the x axis
+            plt.xlabel('Abcissas')
+            # naming the y axis    
+            plt.ylabel('Ordenadas')
+            # giving a title to my graph
+            plt.title('Gráfico com duas funções')
+ 
+            # show a legend on the plot
+            plt.legend()
+ 
+            # function to show the plot
+            plt.show()
+        else:
+            print("Tchau! Até logo.")
+            resposta = 0
+
+else:
+    print("Tchau! Até logo.")
+
+```
