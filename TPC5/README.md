@@ -1,7 +1,7 @@
-# Título
-## Autor: nome, id, foto
-## Resumo: lista de parágrafos
-## Lista de resultados: links para os ficheiros da resolução
+# Aplicação para gestão de alunos
+## Autor: Isadora de Carvalho, A109413
+## Resumo: Abre um menu que permite criar uma turma, inserir um aluno na turma, listar a turma, consultar um aluno por id, guardar a turma em ficheiro, carregar uma turma dum ficheiro.
+## Lista de resultados:
 
 ``` python 
 # criar uma turma em modo lista que contenha os alunos em tuplo com seu nome, o id estudante e uma lista de 3 notas
