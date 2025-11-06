@@ -1,7 +1,7 @@
-# Título
-## Autor: nome, id, foto
-## Resumo: lista de parágrafos
-## Lista de resultados: links para os ficheiros da resolução
+# Aplicação para Gerir um Cinema 
+## Autor: Isadora de Carvalho, A109413
+## Resumo: Abre um menu que permite saber Filmes que estão em exibição, saber Disponibilidade do lugar, Ocupar lugar, saber Disponibilidade for sala, Acrescentar sala novo, Pedir pipoca.
+## Lista de resultados:
 
 ```python
 sala1 = ( 120,[],"Lavagante" )
