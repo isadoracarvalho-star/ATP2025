@@ -1,7 +1,7 @@
 # Aplicação de Manipulação de Listas de Inteiros
 ## Autor: Isadora de Carvalho, A109413, foto
-## Resumo: 
-## Lista de resultados: links para os ficheiros da resolução
+## Resumo: Abre um menu que permite Criar Lista, Ler Lista, Somar, fazer a Média, saber o Maior, saber o Menor, se esta Ordenada por ordem crescente, se esta Ordenada por ordem decrescente e Procura um elemento.
+## Lista de resultados:
 
 ```python
 #colocar no monitor o menu
