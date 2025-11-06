@@ -1,7 +1,7 @@
-# Título
-## Autor: nome, id, foto
-## Resumo: lista de parágrafos
-## Lista de resultados: links para os ficheiros da resolução
+# Teste de aferição
+## Autor: Isadora de Carvalho, A109413
+## Resumo: Foi feito uma sequencia de perguntas para autoavaliação do desempenho do aluno.
+## Lista de resultados: 
 
 ```
 #tpc-1
