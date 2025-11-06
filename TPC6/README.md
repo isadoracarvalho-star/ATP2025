@@ -1,7 +1,6 @@
-# Título
-## Autor: nome, id, foto
-## Resumo: lista de parágrafos
-## Lista de resultados: links para os ficheiros da resolução
+# App de Meterologia
+## Autor: Isadora de Carvalho, A109413
+## Resumo: Abre um menu que permite saber Temperatura média, Guardar tabela meterológica, Carregar tabela meterológica, saber Temperatura mínima, saber Amplitude máxima, saber Dia com maior precipitação, saber Dias chuvosos em relção a precipitação desejada, saber Maior número de dias consecutivos com precipitação abaixo da precipitação desejada e Gráfico da temperatura mínima, máxima e de pluviosidade.
 
 ```
 tabMeteo1 = [((2022,1,20), 2, 16, 0),((2022,1,21), 1, 13, 0.2), ((2022,1,22), 7, 17, 0.01)]
